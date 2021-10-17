@@ -1,9 +1,15 @@
 # School_District_Analysis
 Pandas
 
-1. Overview of the school district analysis: Explain the purpose of this analysis.
+1. **Overview of the school district analysis:** Explain the purpose of this analysis.
 
-2. Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+In this module we helped Maria, who is a chief data scientist for a City School System; so we prepared all the school and student's standarize test scores, in order to show trends and school's performace and to give to the School Board and Superintendent the necessary information for them to take decisions regarding the school budgets and priorities.
+
+After the genral summary that we had made during the module, the School Board notified Maria, they found some evidence of academic dishonesty, in reading and math grades for Thomas High School ninth graders, which seems to be alteraded.
+
+So then we must replace the math and reading scores with "NaNs", but keeping the rest of the data for Thomas High School intact. After previously said, we'll see how these changes affected the overall analysis.
+
+2. **Results**: Using bulleted lists and images of DataFrames as support, address the following questions.
 
   - How is the district summary affected?
   - How is the school summary affected?
