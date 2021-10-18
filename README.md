@@ -38,6 +38,18 @@ Since the % Overall Passing for THS from the beggining was good, at the end the 
 
   - How does replacing the ninth-grade scores affect the following:
       - Math and reading scores by grade
+
+As you can see on the DF on the first image,, the first result for math scores by grade for THS on the ninth grade, was placed as 83.6 and 83.7 for reading scores; but after the incident per the school board instruction, you can see that the score for the ninth grade on math and reading, its represented by the variable "nan":
+
+![math_scores_by_grade_1](https://user-images.githubusercontent.com/90433064/137668728-f75e82be-bebd-484f-9d08-9f1f1e052014.png)
+
+![math_scores_by_grade_2](https://user-images.githubusercontent.com/90433064/137668737-cc98e521-aa7a-402f-9de3-942c950a3256.png)
+
+![reading_scores_by_grade_1](https://user-images.githubusercontent.com/90433064/137668750-d438a8c1-c48d-4daa-9cb2-9ab034e75d60.png)
+
+![reading_scores_by_grade_2](https://user-images.githubusercontent.com/90433064/137668760-25b80a42-e4a9-465d-a2d6-0dacc58820ee.png)
+
+
       - Scores by school spending
       - Scores by school size
       - Scores by school type
