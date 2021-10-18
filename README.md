@@ -12,6 +12,7 @@ So then we must replace the math and reading scores with "NaNs", but keeping the
 2. **Results**: Using bulleted lists and images of DataFrames as support, address the following questions.
 
   - How is the district summary affected?
+
 On the initial results, we obteined the following outcomes:
 
 ![Outcomes before cleanup](https://user-images.githubusercontent.com/90433064/137658905-e68cd2e1-bf0c-46cd-8215-50907c16598c.png)
@@ -23,6 +24,7 @@ And these are the results after the cleanup on the data:
 As you can see, the parameter that affected was only the "School Type": Charter; since this is the parameter which Thomas Highschool belong. And actually overall results for the Charter School Type shows a tiny difference of .04 points of% Overall Passing affected by the modification on the results of THS. So then, the district summary was not affected by the incident of THS.
 
   - How is the school summary affected?
+
 Even though the Thomas High School % Overall Passing, was affected by the deduction of the ninth grade performance; its overall results did not change that much, so it allow THS to mantein the second place of the top 5 schools, based on their % Overall Passing. Because of that  the order of the schools in that mentioned DF, kept the same order as well.
 
 Outcomes before the incident:
@@ -34,6 +36,7 @@ Outcomes after the incident:
 ![school_summary_2](https://user-images.githubusercontent.com/90433064/137666324-970ae83f-7061-46e7-97df-02e0f2623b9f.png)
 
   - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
 Since the % Overall Passing for THS from the beggining was good, at the end the ninth graders's score, did not affected its possition in compairs to the rest of the schools; because the difference from the first and the second outcome for % Overall Passing for THS was only .31 points, and the difference from its first outcome and the third place on the top 5 schools it was .35 points; that is why THS was able to mantain its position on the chart.
 
   - How does replacing the ninth-grade scores affect the following:
@@ -51,7 +54,33 @@ As you can see on the DF on the first image,, the first result for math scores b
 
 
       - Scores by school spending
+
+Taking into account that THS is on the range from $630-$644, it's suppoused to be this range the one affected by the NaN variable: 
+
+![school_spending_1](https://user-images.githubusercontent.com/90433064/137670127-917d82d1-1049-45a8-ba64-8158c9832ccb.png)
+
+![school_spending_2](https://user-images.githubusercontent.com/90433064/137670135-2796ed4e-608a-43df-b2f1-dc0166aa8b7f.png)
+
+As you can see only the reading scores were the unique value (besides the % passing reading) that grows up per decimals, from the rest were affected negativatly from -.01 to -.08 points by the incident.
+
       - Scores by school size
+
+Having that THS belongs to the Medium size category:
+
+![school_size_1](https://user-images.githubusercontent.com/90433064/137670144-fc1595ee-0a95-4b3b-a310-9cb50de0eb26.png)
+
+![school_size_2](https://user-images.githubusercontent.com/90433064/137670155-c9082f16-801d-4d30-8e95-39ec486a2c3a.png)
+
+We can see, that it happened the same than  for the spending analysis, the unique value that was affected in a positive way by +.01 points, it were the reading scores (besides the % passing reading).
+
       - Scores by school type
+      
+As we said previously, since the THS is part of the Charter type's school, we can determine that the district's scores did not received an affectation:
+      
+![school_type_1](https://user-images.githubusercontent.com/90433064/137670168-6e1c395a-52cb-48cc-b53c-eb6b86544c7d.png)
+
+![school_type_2](https://user-images.githubusercontent.com/90433064/137670183-ae2f2a82-c9c2-4c93-8001-582a7ab6cd78.png)
+
+We can mention as well, that in this case the positive affectation for the reading scores, is only for .005 points, from the first result and the one after the incident. 
 
 3.- Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
