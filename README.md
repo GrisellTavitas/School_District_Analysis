@@ -12,7 +12,17 @@ So then we must replace the math and reading scores with "NaNs", but keeping the
 2. **Results**: Using bulleted lists and images of DataFrames as support, address the following questions.
 
   - How is the district summary affected?
-  - How is the school summary affected?
+On the initial results, we obteined the following outcomes:
+
+![Outcomes before cleanup](https://user-images.githubusercontent.com/90433064/137658905-e68cd2e1-bf0c-46cd-8215-50907c16598c.png)
+
+And these are the results after the cleanup on the data:
+
+![Outcomes after cleanup](https://user-images.githubusercontent.com/90433064/137659002-755e4030-f946-4eba-8d44-38e8b9494c80.png)
+
+As you can see, the parameter that affected was only the "School Type": Charter; since this is the parameter which Thomas Highschool belong. And actually overall results for the Charter School Type shows a tiny difference of .04 points of% Overall Passing affected by the modification on the results of THS. So then, the district summary was not affected by the incident of THS.
+
+- How is the school summary affected?
   - How does replacing the ninth graders’ math and reading scores affect Thomas High    School’s performance relative to the other schools?
   - How does replacing the ninth-grade scores affect the following:
       - Math and reading scores by grade
