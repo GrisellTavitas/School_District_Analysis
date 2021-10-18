@@ -84,3 +84,10 @@ As we said previously, since the THS is part of the Charter type's school, we ca
 We can mention as well, that in this case the positive affectation for the reading scores, is only for .005 points, from the first result and the one after the incident. 
 
 3.- Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+So we can conclude that the ranges affected mainly were:
+
+    - The % Overall Passing ofcourse related to the THS.
+    - Reading scores for the range of $630-$644 on the spending analysis.
+    - Reading scores for the range of Medium Size (1000-2000) on the size analysis.
+    - Reading scores for the range of Charter Type on the type analysis.
