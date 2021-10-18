@@ -26,12 +26,16 @@ As you can see, the parameter that affected was only the "School Type": Charter;
 Even though the Thomas High School % Overall Passing, was affected by the deduction of the ninth grade performance; its overall results did not change that much, so it allow THS to mantein the second place of the top 5 schools, based on their % Overall Passing. Because of that  the order of the schools in that mentioned DF, kept the same order as well.
 
 Outcomes before the incident:
+
 ![school_summary_1](https://user-images.githubusercontent.com/90433064/137666293-32871276-12e2-42de-971d-7d6753fd69ea.png)
 
 Outcomes after the incident:
+
 ![school_summary_2](https://user-images.githubusercontent.com/90433064/137666324-970ae83f-7061-46e7-97df-02e0f2623b9f.png)
 
-  - How does replacing the ninth graders’ math and reading scores affect Thomas High    School’s performance relative to the other schools?
+  - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+Since the % Overall Passing for THS from the beggining was good, at the end the ninth graders's score, did not affected its possition in compairs to the rest of the schools; because the difference from the first and the second outcome for % Overall Passing for THS was only .31 points, and the difference from its first outcome and the third place on the top 5 schools it was .35 points; that is why THS was able to mantain its position on the chart.
+
   - How does replacing the ninth-grade scores affect the following:
       - Math and reading scores by grade
       - Scores by school spending
